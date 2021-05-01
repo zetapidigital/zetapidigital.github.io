@@ -28,7 +28,6 @@ font-family: 'Bai Jamjuree', sans-serif;
 
 
 
-
 .wave{
     position: absolute;
     top: 0;
@@ -139,13 +138,7 @@ font-family: 'Bai Jamjuree', sans-serif;
 	padding: 220px 0 200px;
 
 	box-shadow: 0 6px 8px 0 rgba(0,0,0,0.492),0 6px  20px 0 rgba(0,0,0,0.492);
-
-
-	/*background: url('/images/imgretangle.png');*/
-	/*background:rgba(4, 4, 179, 0.849);*/
-/*	background-repeat: no-repeat;*/
-
-	background: url(./images/imgretangle.svg) no-repeat;
+	background: url('../images/imgretangle.svg');
 	background-repeat: no-repeat;
 	background-color:white;
 
@@ -236,7 +229,7 @@ font-family: 'Bai Jamjuree', sans-serif;
 	background-position: center;
 	
 	background: rgb(252, 106, 9) !important;
-	background: url('./images/imgretangle.svg');
+	background: url('../images/imgretangle.svg');
 	background-repeat: no-repeat;
 	
 }
@@ -255,7 +248,7 @@ font-family: 'Bai Jamjuree', sans-serif;
 	padding-bottom:10px;
 	text-align: justify;
 	font-family: 'Bai Jamjuree', sans-serif;
-	background: url('./images/wave_portfolio.svg');
+	background: url('../images/wave_portfolio.svg');
 	background-repeat: no-repeat;
 	background-color:#C4C4C4;
 
@@ -275,7 +268,7 @@ font-family: 'Bai Jamjuree', sans-serif;
 	padding-bottom: 70px;
 	text-align: justify;
 	font-family: 'Bai Jamjuree', sans-serif;
-	background: url('./images/wave_services.svg');
+	background: url('../images/wave_services.svg');
 	background-repeat: no-repeat;
 	background-color:#C4C4C4;
 
@@ -301,7 +294,7 @@ div.card{
 	padding-top: 90px;
 	padding-bottom: 10px;
 	font-family: 'Bai Jamjuree', sans-serif;
-	background: url('./images/wave_contact.svg');
+	background: url('../images/wave_contact.svg');
 	background-repeat: no-repeat;
 	background-color:white;
 }
