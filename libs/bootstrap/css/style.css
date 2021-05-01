@@ -248,7 +248,7 @@ font-family: 'Bai Jamjuree', sans-serif;
 	padding-bottom:10px;
 	text-align: justify;
 	font-family: 'Bai Jamjuree', sans-serif;
-	background: url('../images/wave_portfolio.svg');
+	background-image:url("https://zetapidigital.github.io/images/Wave_portfolio.svg");
 	background-repeat: no-repeat;
 	background-color:#C4C4C4;
 
@@ -268,7 +268,7 @@ font-family: 'Bai Jamjuree', sans-serif;
 	padding-bottom: 70px;
 	text-align: justify;
 	font-family: 'Bai Jamjuree', sans-serif;
-	background: url('../images/wave_services.svg');
+	background-image:url("https://zetapidigital.github.io/images/Wave_services.svg");
 	background-repeat: no-repeat;
 	background-color:#C4C4C4;
 
@@ -294,9 +294,9 @@ div.card{
 	padding-top: 90px;
 	padding-bottom: 10px;
 	font-family: 'Bai Jamjuree', sans-serif;
-	background: url('../images/wave_contact.svg');
+	background-image:url("https://zetapidigital.github.io/images/Wave_contact.svg");
 	background-repeat: no-repeat;
-	background-color:white;
+	background-color:#C4C4C4;
 }
 
 
