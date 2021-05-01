@@ -138,7 +138,7 @@ font-family: 'Bai Jamjuree', sans-serif;
 	padding: 220px 0 200px;
 
 	box-shadow: 0 6px 8px 0 rgba(0,0,0,0.492),0 6px  20px 0 rgba(0,0,0,0.492);
-	background: url('https://zetapidigital.github.io/images/imgretangle.svg');
+	background-image: url('../images/imgretangle.svg');
 	background-repeat: no-repeat;
 	background-color:white;
 
