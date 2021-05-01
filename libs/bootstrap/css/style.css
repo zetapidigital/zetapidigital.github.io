@@ -52,10 +52,10 @@ font-family: 'Bai Jamjuree', sans-serif;
 }
 
 
-/*.bgcolor{
+.bgcolor{
 	background-color: rgba(0, 0, 0, 0.492); 
 }
-*/
+
 
 .bgcolor.scrolled{
 	background-color: rgba(0, 0, 0, 0.492); 
