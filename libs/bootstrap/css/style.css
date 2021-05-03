@@ -381,7 +381,7 @@ div.card{
 
 
 
-@media screen and (max-width:800px) {
+@media (max-width:800px) {
 	.container-image{
 		flex-basis: 60%;
 		width: 100%;
@@ -419,8 +419,98 @@ div.card{
 	.main{
 		padding-left:15px;
 		padding-right:15px;
+		position: relative;
+
+		align-items: center;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		flex-direction: row;
+		width: auto;
+		height: auto;		
+		text-align: justify;
+		background-image:url("https://zetapidigital.github.io/images/Wave_main.svg");
+		background-repeat: no-repeat;
+		background-color:#C4C4C4;
+		background-position:bottom center;
+		background-size: 100%;
 		
 	}
+
+	.portfolio{
+		position: relative;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		flex-direction: row;
+		text-align: justify;
+		font-family: 'Bai Jamjuree', sans-serif;
+                background-image:url("https://zetapidigital.github.io/images/wave_portfolio.svg");
+		background-repeat: no-repeat;
+		background-color:#C4C4C4;
+		background-position:bottom center;
+		background-size: 100%;
+	
+	}
+
+	.services{
+		position: relative;
+		align-items: center;
+		flex-wrap: wrap;
+		flex-direction: row;	
+		text-align: justify;
+		font-family: 'Bai Jamjuree', sans-serif;
+		background-image:url("https://zetapidigital.github.io/images/wave_services.svg");
+		background-repeat: no-repeat;
+		background-color:#C4C4C4;
+		background-position:top center;
+		background-size: 100%;
+	
+	
+	}
+
+	.about{
+		position: relative;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		flex-direction: row;
+		width: auto;
+		height: auto;		
+		text-align: justify;
+		font-family: 'Bai Jamjuree', sans-serif;
+		background: rgb(252, 106, 9) !important;
+                background-image:url("https://zetapidigital.github.io/images/imgretangle.svg");
+		background-repeat: no-repeat;
+		background-position:bottom center;
+		background-size: 100%;
+		
+	}
+
+	.contact{
+		position: relative;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		flex-direction: row;
+		width: auto;
+		height: auto;
+		font-family: 'Bai Jamjuree', sans-serif;
+		background-image:url("https://zetapidigital.github.io/images/Wave_contact.svg");
+		background-repeat: no-repeat;
+		background-color:#C4C4C4;
+		background-position:top center;
+		background-size: 100%;
+	}
+	
+	
+	
+	
+	
 
 	.container-image{
 		flex-basis: 30%;
