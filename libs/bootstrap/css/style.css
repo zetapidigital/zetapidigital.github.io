@@ -434,7 +434,7 @@ div.card{
 		background-repeat: no-repeat;
 		background-color:#C4C4C4;
 		background-position:bottom center;
-		background-size: 100%;
+		background-size: auto;
 		
 	}
 
@@ -451,7 +451,7 @@ div.card{
 		background-repeat: no-repeat;
 		background-color:#C4C4C4;
 		background-position:bottom center;
-		background-size: 100%;
+		background-size: auto;
 	
 	}
 
@@ -466,7 +466,7 @@ div.card{
 		background-repeat: no-repeat;
 		background-color:#C4C4C4;
 		background-position:top center;
-		background-size: 100%;
+		background-size: auto;
 	
 	
 	}
@@ -486,7 +486,7 @@ div.card{
                 background-image:url("https://zetapidigital.github.io/images/imgretangle.svg");
 		background-repeat: no-repeat;
 		background-position:bottom center;
-		background-size: 100%;
+		background-size: auto;
 		
 	}
 
@@ -504,7 +504,7 @@ div.card{
 		background-repeat: no-repeat;
 		background-color:#C4C4C4;
 		background-position:top center;
-		background-size: 100%;
+		background-size: auto;
 	}
 	
 	
