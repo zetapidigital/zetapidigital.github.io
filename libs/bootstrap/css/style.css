@@ -285,7 +285,7 @@ font-family: 'Bai Jamjuree', sans-serif;
 	flex-direction: row;	
 	text-align: justify;
 	font-family: 'Bai Jamjuree', sans-serif;
-	background: url("http://localhost/zetapidigital/images/wave_services.svg");
+	background: url("http://localhost/zetapidigital/images/Wave_client.svg");
 	background-repeat: no-repeat;
 	background-color:#C4C4C4;
 	background-position:top center;
@@ -501,7 +501,7 @@ div.card{
 		flex-direction: row;	
 		text-align: justify;
 		font-family: 'Bai Jamjuree', sans-serif;
-		background: url("http://localhost/zetapidigital/images/wave_services.svg");
+		background: url("http://localhost/zetapidigital/images/Wave_client.svg");
 		background-repeat: no-repeat;
 		background-color:#C4C4C4;
 		background-position:top center;
