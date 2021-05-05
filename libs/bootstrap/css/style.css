@@ -256,6 +256,8 @@ font-family: 'Bai Jamjuree', sans-serif;
 }
 
 
+
+
 .services{
 	position: relative;
 	display: flex;
@@ -276,10 +278,26 @@ font-family: 'Bai Jamjuree', sans-serif;
 
 }
 
+.client{
+	position: relative;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;	
+	text-align: justify;
+	font-family: 'Bai Jamjuree', sans-serif;
+	background-repeat: no-repeat;
+	background-color:#C4C4C4;
+	background-position:top center;
+	background-size: 100%;
+
+}
+
+
 
 div.card{
 	box-shadow: 0 6px 8px 0 rgba(0,0,0,0.2),0 6px  20px 0 rgba(0,0,0,0.19);
 }
+
 
 
 
