@@ -289,7 +289,7 @@ font-family: 'Bai Jamjuree', sans-serif;
 	font-family: 'Bai Jamjuree', sans-serif;
 
 	background-repeat: no-repeat;
-	background-color: rgb(252, 106, 9) !important;
+	background: rgb(252, 106, 9) !important;
 	background-position:top center;
 	background-size: 100%;
 
@@ -506,7 +506,7 @@ div.card{
 	        padding-bottom: 20px;
 		font-family: 'Bai Jamjuree', sans-serif;
 		background-repeat: no-repeat;
-                background-color: rgb(252, 106, 9) !important;
+                background: rgb(252, 106, 9) !important;
 		background-position:top center;
 		background-size: 100%;
 	
