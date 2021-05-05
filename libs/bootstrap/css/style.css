@@ -552,17 +552,17 @@ div.card{
 	
 
 	.container-image{
-		flex-basis: 20%;
+		flex-basis: 40%;
 		display: flex;
 		right: 0px;
-		top: 20px;
+		top: 15px;
 		align-items: right;
 		justify-content: right;
 	}
 
 	.container-image img{
-		max-width: 300px;
-		max-height: 200px;
+		max-width: 200px;
+		max-height: 150px;
 	}
 
 	.wave{
