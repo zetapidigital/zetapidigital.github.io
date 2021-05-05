@@ -287,9 +287,9 @@ font-family: 'Bai Jamjuree', sans-serif;
 	padding-bottom: 70px;
 	text-align: justify;
 	font-family: 'Bai Jamjuree', sans-serif;
-	background: url("http://zetapidigital.github.io/images/Wave_client.svg");
+
 	background-repeat: no-repeat;
-	background-color:#C4C4C4;
+	background-color: rgb(252, 106, 9) !important;
 	background-position:top center;
 	background-size: 100%;
 
@@ -505,9 +505,8 @@ div.card{
 		padding-top: 50px;
 	        padding-bottom: 20px;
 		font-family: 'Bai Jamjuree', sans-serif;
-		background: url("http://zetapidigital.github.io/images/Wave_client.svg");
 		background-repeat: no-repeat;
-		background-color:#C4C4C4;
+                background-color: rgb(252, 106, 9) !important;
 		background-position:top center;
 		background-size: 100%;
 	
