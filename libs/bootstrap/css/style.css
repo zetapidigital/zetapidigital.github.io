@@ -518,9 +518,7 @@ div.card{
 		justify-content: space-around;
 		align-items: center;
 		flex-wrap: wrap;
-		flex-direction: row;
-		width: 100%;
-		height: auto;		
+		flex-direction: row;		
 		text-align: justify;
 		font-family: 'Bai Jamjuree', sans-serif;
 		background: rgb(252, 106, 9) !important;
