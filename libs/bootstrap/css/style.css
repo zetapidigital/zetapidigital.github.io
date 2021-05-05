@@ -283,6 +283,8 @@ font-family: 'Bai Jamjuree', sans-serif;
 	align-items: center;
 	flex-wrap: wrap;
 	flex-direction: row;	
+	padding-top: 90px;
+	padding-bottom: 70px;
 	text-align: justify;
 	font-family: 'Bai Jamjuree', sans-serif;
 	background: url("http://localhost/zetapidigital/images/Wave_client.svg");
