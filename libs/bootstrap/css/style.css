@@ -605,8 +605,8 @@ div.card{
 
 	font-weight: bold;
 	font-size: 20px;
-		padding-left: 10px;
-		padding-right: 5px;
+	padding-left: 10px;
+	
 	
 
 
@@ -620,7 +620,7 @@ div.card{
 	}
 
 	.navbar{
-		padding-right: 4px;
+		padding-right: 8px;
 
 	}
 
