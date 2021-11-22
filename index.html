@@ -35,6 +35,15 @@
 	 
 	</head>
 <body onload="load()">
+	<div class="promo">
+
+		<div class="promo-content">
+			<h1> X </h1>
+			<h2>Subscribe</h2>
+
+			<p>Christmas'day promo</p>
+		</div>
+	</div>
 
 	<!-- Navigation -->
  <!--  <nav class="navbar navbar-expand-lg navbar-dark bg-purple fixed-top"> -->
@@ -129,6 +138,9 @@
     			</div>
     		</div>
     	</section>
+	
+	
+	
 
 		<div class="container-image">
             <img src="../images/web_developer.svg" alt="">
@@ -619,6 +631,28 @@
             buttonImage: '<img src="../images/whatsapp.svg" />'
         });
     });
+</script>
+	  
+<script type="text/javascript">
+	const promo = document.querySelector('.promo');
+	const x = document.querySelector('.promo-content h1');
+
+	window.addEventListener('load', () => {
+		promo.classList.add('showpromo');
+		promo.childNodes[1].classList.add('showpromo');
+
+		
+
+
+	});
+
+	x.addEventListener('click', ()=>{
+		promo.classList.remove('showpromo');
+		promo.childNodes[1].classList.remove('showpromo');
+
+	});
+
+
 </script>
 
 
