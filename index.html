@@ -130,9 +130,9 @@
     		</div>
     	</section>
 	
-	<div class="promo">
+	<div class="popup">
 
-		<div class="promo-content">
+		<div class="popup-content">
 			<h1> X </h1>
 			<h2>Subscribe</h2>
 
@@ -636,12 +636,12 @@
 </script>
 	  
 <script type="text/javascript">
-	const promo = document.querySelector('.promo');
-	const x = document.querySelector('.promo-content h1');
+	const popup = document.querySelector('.popup');
+	const x = document.querySelector('.popup-content h1');
 
 	window.addEventListener('load', () => {
-		promo.classList.add('showpromo');
-		promo.childNodes[1].classList.add('showpromo');
+		promo.classList.add('showpopup');
+		promo.childNodes[1].classList.add('showpopup');
 
 		
 
@@ -649,8 +649,8 @@
 	});
 
 	x.addEventListener('click', ()=>{
-		promo.classList.remove('showpromo');
-		promo.childNodes[1].classList.remove('showpromo');
+		promo.classList.remove('showpopup');
+		promo.childNodes[1].classList.remove('showpopup');
 
 	});
 
