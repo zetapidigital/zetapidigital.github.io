@@ -640,6 +640,23 @@
 <script src="../libs/fontawesome/js/fontawesome.js"></script>
 	  
 
+<script type="text/javascript">
+	const promo = document.querySelector('.promo');
+	const x = document.querySelector('.promo-content .promoimg');
+
+	window.addEventListener('load', () => {
+		promo.classList.add('showpromo');
+		promo.childNodes[1].classList.add('showpromo');
+
+	});
+
+	x.addEventListener('click', ()=>{
+		promo.classList.remove('showpromo');
+		promo.childNodes[1].classList.remove('showpromo');
+
+	})
+
+</script>
 	  
 	  
 <script type="text/javascript">
