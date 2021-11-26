@@ -106,7 +106,19 @@
 
 
 </section>
+	<div class="promo">
+			<div class="promo-content">
+			<img src="close.png" alt="close">
+			<h2 style="color: green">PROMO NATAL & TAHUN BARU</h2>
+			<b style="float: right;">Desember 2021 - Januari-2022</b>
+			<br>
+			<p style="float: right;"><b>WEBSITE COMPANY PROFILE</b></p>
+			<b style="float: right"> DISKON <h1>20%</h1></b>
 
+
+		 	    
+
+		</div>
 
 
 
@@ -616,6 +628,26 @@
 <script src="../libs/sweetalert2/sweetalert2.all.min.js"></script>
 <script src="../libs/fontawesome/js/all.js"></script>
 <script src="../libs/fontawesome/js/fontawesome.js"></script>
+	  
+<script type="text/javascript">
+	const promo = document.querySelector('.promo');
+	const x = document.querySelector('.promo-content img');
+
+	window.addEventListener('load', () => {
+		promo.classList.add('showpromo');
+		promo.childNodes[1].classList.add('showpromo');
+
+	});
+
+	x.addEventListener('click', ()=>{
+		promo.classList.remove('showpromo');
+		promo.childNodes[1].classList.remove('showpromo');
+
+	})
+
+</script>
+	  
+	  
 <script type="text/javascript">
     $(function () {
         $('#myButton').floatingWhatsApp({
