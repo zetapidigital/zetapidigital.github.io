@@ -8,14 +8,14 @@ font-family: 'Bai Jamjuree', sans-serif;
 
 }
 
-/*body {
+body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
 	
 }
-*/
+
 
 
 
@@ -704,17 +704,5 @@ div.card{
 	pointer-events: all;
 
 }
-
-
-h4{
-	-webkit-text-decoration-line:line-through;
-	text-decoration-line: line-through;
-	text-decoration-thickness: 3px;
-	text-decoration-color: green;
-	float: right;
-}
-
-
-
 
 
