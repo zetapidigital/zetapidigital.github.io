@@ -607,7 +607,26 @@
             </footer>
 	  
 	  
-	 	 
+	<div class="modal fade show"  tabindex="-1" role="dialog" style="padding-right: 17px; display: block;" aria-modal="true">
+	  <div class="modal-dialog modal-lg  modal-dialog-centered" role="document">
+	    <div class="modal-content" style="background: transparent; border: 0px">
+	        <div class="modal-body">
+	            <img src="../images/promo.png" class="img-fluid lazyload">
+	        </div>
+
+			  <div class="text-center" style="position: relative;
+				top: -19.7rem;
+				left: 8rem;
+				line-height: 1;
+				cursor: pointer;
+				user-select: none;
+			  	overflow:hidden;
+			  	display: block;	">
+			            <img src="../images/close.png" class="close-modal" alt="close" data-dismiss="modal">        
+			  </div>  
+    	</div>
+	  </div>
+</div> 	 
 
 
 
@@ -626,6 +645,26 @@
 <script src="../libs/fontawesome/js/fontawesome.js"></script>
 	  
 
+<script type="text/javascript">
+	document.addEventListener(
+  "click",
+  function(event) {
+    // If user either clicks X button OR clicks outside the modal window, then close modal by calling closeModal()
+    if (
+      event.target.matches(".close-modal") ||
+      !event.target.closest(".modal")
+    ) {
+      closeModal()
+    }
+  },
+  false
+)
+
+function closeModal() {
+  document.querySelector(".modal").style.display = "none"
+}
+
+</script>
 
 	  
 	  
