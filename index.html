@@ -671,10 +671,16 @@ function closeModal() {
 
 <script type="text/javascript">	
 	  
- $('#myDiv').floatingWhatsApp({
+ $('#myButton').floatingWhatsApp({
     phone: '+6281378727788',
     popupMessage: 'Hello, ada yang bisa kami bantu?',
-    showPopup: true
+    message: "saya ingin bertanya tentang website",
+    showPopup: true,
+    showOnIE: false,
+    headerTitle: 'Welcome!',
+    headerColor: 'crimson',
+    backgroundColor: 'crimson',
+    buttonImage: '<img src="../images/whatsapp.svg" />'
 });
 </script>	  
 
